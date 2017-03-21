@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block breadcrumb %}
+    <li><a href="#">监控可视化</a><span class="divider"></span></li>
+    <li class="active">设备状态</li>
+{% endblock %}
+
+{% block body %}
+
+{#    <html>#}
+{#    <head>#}
+        {#    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">#}
+        {#    <title>TWaver HTML5 - Alarm Propagation Demo</title>#}
+        {#    <link rel="stylesheet" href="../static/vendor/base.css" type="text/css">#}
+        {#    <script type="text/javascript" src="../static/vendor/twaver/twaver.js"></script>#}
+        {#    <script type="text/javascript" src="../static/vendor/twaver/demo.js"></script>#}
+        {#    <script type="text/javascript" src="../static/vendor/twaver/AlarmPropagationDemo.js"></script>#}
+
+        <script type="text/javascript">
+            var alarmPropagationDemo = new AlarmPropagationDemo();
+        </script>
+{#    </head>#}
+    <body onload="alarmPropagationDemo.init()">
+    <div id='main' style="height: 500px;width: 1000px;margin-top: 100px;">
+    </div>
+{#    </body>#}
+{#    </html>#}
+{% endblock %}

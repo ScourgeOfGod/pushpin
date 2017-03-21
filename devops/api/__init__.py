@@ -19,7 +19,7 @@ import server
 import zabbix
 import zbhost
 import zabbix_api
-import cobbler
+#import cobbler
 import zabbix_Graph_api
 import switch
 import jigui

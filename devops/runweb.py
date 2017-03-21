@@ -1,8 +1,9 @@
 #!/bin/env python
 # -*- encoding: utf-8 -*-
-from web import app
 import os,sys,logging,logging.config
 import db,util
+import util
+from web import app
 
 work_dir = os.path.dirname(os.path.realpath(__file__))
 app.secret_key = 'A0Zr98j/3yX R~XHH!jmN]LWX/,?RT'
